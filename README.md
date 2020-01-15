@@ -11,19 +11,33 @@ We are an analysis firm who have been hired by a life insurance firm to find way
 # Project Summary
 We collected data on factors that may contribute to life expectancy, from our initial dataset of 534 variables we narrowed it down to 14 key variables. 
 These key variables were made up of:
+
  'Injury_deaths_raw_value',
+ 
  'Teen_births_raw_value',
+ 
  'Uninsured_adults_raw_value',
+ 
  'Uninsured_raw_value',
+ 
  'Air_pollution___particulate_matter_raw_value',
+ 
  'Diabetes_prevalence_raw_value',
+ 
  'Sexually_transmitted_infections_raw_value',
+ 
  'Injury_deaths_raw_value_AND_Teen_births_raw_value',
+ 
  'Injury_deaths_raw_value_AND_Air_pollution___particulate_matter_raw_value',
+ 
  'Population_raw_value',
+ 
  'County_Ranked',
+ 
  'High_school_graduation_raw_value',
+ 
  'Teen_births_raw_value_AND_Uninsured_adults_raw_value',
+ 
  'Alcohol_impaired_driving_deaths_raw_value'
 
 We started off with a baseline model which returned a r^2 of 0.922. After looking at a qq plot we realised that are data was not normally distrubuted. Because of this our we removed the top 10% datapoints from our dataset, this improved the kurtosis and the skewness of our dataset.
